@@ -9,3 +9,27 @@ Lvl 36
 
 Graveler -> Golem:
 Lvl 36
+
+Poliwhirl -> Politoed
+Use Kings Rock
+
+Slowpoke -> Slowking
+Use Kings Rock
+
+Onix -> Steelix
+Use Metal Coat
+
+Seadra -> Kingdra
+Use Dragon Scale
+
+Scyther -> Scizor
+Use Metal Coat
+
+Porygon -> Porygon2
+Use Up-Grade
+
+Clamperl -> Huntail 
+Use Deep Sea Tooth
+
+Clamperl -> Gorebyss
+Use Deep Sea Scale
