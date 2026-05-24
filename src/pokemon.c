@@ -1386,6 +1386,16 @@ static const s8 sNatureStatTable[NUM_NATURES][NUM_NATURE_STATS] =
     [NATURE_QUIRKY]  = {    0,      0,      0,      0,      0   },
 };
 
+static const u8 sPssStatToNatureTableIdx[] = {0, 1, 3, 4, 2};
+
+s8 GetNatureStatModifier(u8 nature, u8 pssStat)
+{
+    if (pssStat >= 5)
+        return 0;
+    return sNatureStatTable[nature][sPssStatToNatureTableIdx[pssStat]];
+}
+
+
 #include "data/pokemon/tmhm_learnsets.h"
 #include "data/pokemon/trainer_class_lookups.h"
 #include "data/pokemon/cry_ids.h"
