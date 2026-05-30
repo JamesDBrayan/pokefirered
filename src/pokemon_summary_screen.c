@@ -17,6 +17,7 @@
 #include "constants/party_menu.h"
 #include "trade.h"
 #include "battle_main.h"
+#include "battle.h"
 #include "scanline_effect.h"
 #include "constants/moves.h"
 #include "dynamic_placeholder_text_util.h"
@@ -2960,6 +2961,16 @@ static void PokeSum_PrintSelectedMoveStats(void)
                                      57, 1,
                                      sLevelNickTextColors[0], TEXT_SKIP_DRAW,
                                      sMonSummaryScreen->summary.movePowerStrBufs[sMoveSelectionCursorPos]);
+
+        {
+            u16 moveId = sMonSummaryScreen->moveIds[sMoveSelectionCursorPos];
+            if (IS_MOVE_PHYSICAL(moveId))
+                BlitMenuInfoIcon(sMonSummaryScreen->windowIds[POKESUM_WIN_TRAINER_MEMO], MENU_INFO_ICON_CATEGORY_PHYSICAL, 90, 1);
+            else if (IS_MOVE_SPECIAL(moveId))
+                BlitMenuInfoIcon(sMonSummaryScreen->windowIds[POKESUM_WIN_TRAINER_MEMO], MENU_INFO_ICON_CATEGORY_SPECIAL, 90, 1);
+            else
+                BlitMenuInfoIcon(sMonSummaryScreen->windowIds[POKESUM_WIN_TRAINER_MEMO], MENU_INFO_ICON_CATEGORY_STATUS, 90, 1);
+        }
 
         AddTextPrinterParameterized3(sMonSummaryScreen->windowIds[POKESUM_WIN_TRAINER_MEMO], FONT_NORMAL,
                                      57, 15,
