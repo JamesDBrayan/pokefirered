@@ -123,3 +123,37 @@ ViridianCity_Text_GymSign::
 ViridianCity_Text_GymDoorsAreLocked::
     .string "VIRIDIAN GYM's doors are locked…$"
 
+ViridianCity_Text_FishingGuruDoYouLikeToFish::
+    .string "I'm the FISHING GURU!\p"
+    .string "I simply looove fishing!\n"
+    .string "I can't bear to go without.\p"
+    .string "Tell me, do you like to fish?$"
+
+ViridianCity_Text_FishingGuruTakeThis::
+    .string "Grand! I like your style.\n"
+    .string "I think we can be friends.\p"
+    .string "Take this and fish, young friend!$"
+
+ViridianCity_Text_FishingGuruReceived::
+    .string "{PLAYER} received an OLD ROD\n"
+    .string "from the FISHING GURU.$"
+
+ViridianCity_Text_FishingGuruFishingIsLife::
+    .string "Fishing is a way of life!\n"
+    .string "It is like the finest poetry.\p"
+    .string "From the seas to rivers, go out\n"
+    .string "and land the big one, my friend.$"
+
+ViridianCity_Text_FishingGuruDisappointing::
+    .string "Oh…\n"
+    .string "That's so disappointing…$"
+
+ViridianCity_Text_FishingGuruHowAreTheFish::
+    .string "Hello there, {PLAYER}!\p"
+    .string "How are the fish biting?$"
+
+ViridianCity_Text_FishingGuruNoRoom::
+    .string "Oh, no!\p"
+    .string "I had a nice gift for you, but you\n"
+    .string "have no room for it!$"
+
