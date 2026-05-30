@@ -375,6 +375,7 @@ gBattleAnims_Moves::
 	.4byte Move_WATER_PULSE
 	.4byte Move_DOOM_DESIRE
 	.4byte Move_PSYCHO_BOOST
+	.4byte Move_LEAFAGE
 	.4byte Move_COUNT @ cannot be reached, because last move is Psycho Boost
 
 	.align 2
@@ -6942,6 +6943,9 @@ Move_PETAL_DANCE:
 	clearmonbg ANIM_DEF_PARTNER
 	blendoff
 	end
+
+Move_LEAFAGE:
+	goto Move_RAZOR_LEAF
 
 Move_RAZOR_LEAF:
 	loadspritegfx ANIM_TAG_LEAF

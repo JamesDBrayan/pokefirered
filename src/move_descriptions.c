@@ -150,7 +150,7 @@ const u8 gMoveDescription_DizzyPunch[] = _("The foe is hit with\na rhythmic punc
 const u8 gMoveDescription_Spore[] = _("The user scatters\nbursts of fine\nspores that induce\nsleep.");
 const u8 gMoveDescription_Flash[] = _("A blast of light\nthat cuts the foe's\naccuracy. It also\nilluminates caves.");
 const u8 gMoveDescription_Psywave[] = _("The foe is attacked\nwith an odd, hot\nenergy wave that\nvaries in intensity.");
-const u8 gMoveDescription_Splash[] = _("The user just flops\nand splashes around\nwithout having any\neffect.");
+const u8 gMoveDescription_Splash[] = _("The user splashes\naround smashing\nwater into the\nopposing pokemon.");
 const u8 gMoveDescription_AcidArmor[] = _("The user alters its\ncells to liquefy\nitself and sharply\nraise DEFENSE.");
 const u8 gMoveDescription_Crabhammer[] = _("A large pincer is\nused to hammer the\nfoe. It has a high\ncritical-hit ratio.");
 const u8 gMoveDescription_Explosion[] = _("The user explodes\nto inflict terrible\ndamage even while\nfainting itself.");
@@ -355,6 +355,7 @@ const u8 gMoveDescription_ShockWave[] = _("A rapid jolt of\nelectricity strikes\
 const u8 gMoveDescription_WaterPulse[] = _("An attack with a\npulsing blast of\nwater. It may also\nconfuse the foe.");
 const u8 gMoveDescription_DoomDesire[] = _("A move that attacks\nthe foe with a\nblast of light two\nturns after use.");
 const u8 gMoveDescription_PsychoBoost[] = _("An intense attack\nthat also sharply\nreduces the user's\nSP. ATK stat.");
+const u8 gMoveDescription_Leafage[] = _("Pelts the foe with\na flurry of leaves\nto inflict damage.");
 
 const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] = {
     [MOVE_POUND         - 1] = gMoveDescription_Pound,
@@ -711,4 +712,5 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] = {
     [MOVE_WATER_PULSE   - 1] = gMoveDescription_WaterPulse,
     [MOVE_DOOM_DESIRE   - 1] = gMoveDescription_DoomDesire,
     [MOVE_PSYCHO_BOOST  - 1] = gMoveDescription_PsychoBoost,
+    [MOVE_LEAFAGE       - 1] = gMoveDescription_Leafage,
 };
